@@ -1,0 +1,299 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.title {
+    color: #111;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.title span {
+    color: #141414;
+}
+
+
+/* ===========LOVED============ */
+
+.reviews {}
+
+
+.reviews-title {
+    color: #576f35;
+    font-family: "InterTight-SemiBold", sans-serif;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* .words-of-our-customers-impressions-and-opinions-about-the-quality-of-our-services-and-the-freshness-of-our-products,
+.words-of-our-customers-impressions-and-opinions-about-the-quality-of-our-services-and-the-freshness-of-our-products * {
+    box-sizing: border-box;
+}
+
+.words-of-our-customers-impressions-and-opinions-about-the-quality-of-our-services-and-the-freshness-of-our-products {
+    color: #141414;
+    text-align: left;
+    font-family: "InterTight-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    position: relative;
+    width: 553px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+.reviews-list {}
+
+.reviews-item {}
+
+.reviews-subtitle {
+    color: #111;
+    /* text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33; */
+
+
+    font-family: "InterTight-SemiBold", sans-serif;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.reviews-item-text {
+    color: rgba(17, 17, 17, 0.7);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+
+/* .reviews,
+.reviews * {
+    box-sizing: border-box;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+._1 {
+    background: #fbfbfb;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: rgba(122, 49, 69, 0.3);
+    border-width: 1px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 258px;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 303px;
+    position: relative;
+}
+
+.image {
+    border-radius: 72px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    position: relative;
+}
+
+.image2 {
+    background: linear-gradient(to left, #e0e0e0, #e0e0e0);
+    border-radius: 100px;
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    object-fit: cover;
+}
+
+.title-supporting-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 302px;
+    position: relative;
+} */
+
+/* .john-wax {
+    color: #141414;
+    text-align: center;
+    font-family: "InterTight-SemiBold", sans-serif;
+    font-size: 18px;
+    line-height: 110%;
+    font-weight: 600;
+    position: relative;
+}
+
+.these-vegetables-are-my-secret-to-delicious-and-healthy-meals-the-quality-is-always-at-the-highest-level-the-aroma-and-taste-are-enchanting-i-advise-every-fan-of-real-products {
+    color: rgba(20, 20, 20, 0.4);
+    text-align: center;
+    font-family: "InterTight-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 500;
+    position: relative;
+    width: 288px;
+}
+
+._2 {
+    background: #fbfbfb;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: rgba(122, 49, 69, 0.3);
+    border-width: 1px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 258px;
+    position: relative;
+}
+
+.image3 {
+    background: var(--avatar-user-square-amanda-lowery-neutral-background,
+            linear-gradient(to left, #e0e0e0, #e0e0e0));
+    border-radius: 100px;
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    object-fit: cover;
+}
+
+.victoria-romashenko {
+    color: #141414;
+    text-align: center;
+    font-family: "InterTight-SemiBold", sans-serif;
+    font-size: 18px;
+    line-height: 110%;
+    font-weight: 600;
+    position: relative;
+}
+
+.i-love-how-fast-and-fresh-the-vegetables-are-delivered-salads-always-turn-out-so-appetizing-and-soups-are-real-masterpieces-the-quality-is-impeccable {
+    color: rgba(20, 20, 20, 0.4);
+    text-align: center;
+    font-family: "InterTight-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 500;
+    position: relative;
+    width: 288px;
+}
+
+._3 {
+    background: #fbfbfb;
+    border-radius: 24px;
+    border-style: solid;
+    border-color: rgba(122, 49, 69, 0.3);
+    border-width: 1px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    height: 258px;
+    position: relative;
+}
+
+.image4 {
+    background: var(--avatar-user-square-nicolas-trevino-neutral-background,
+            linear-gradient(to left, #e0e0e0, #e0e0e0));
+    border-radius: 100px;
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    object-fit: cover;
+}
+
+.ihor-trachuk {
+    color: #141414;
+    text-align: center;
+    font-family: "InterTight-SemiBold", sans-serif;
+    font-size: 18px;
+    line-height: 110%;
+    font-weight: 600;
+    position: relative;
+}
+
+.recently-tried-my-fresh-tomatoes-and-peppers-amazing-the-authenticity-of-the-taste-as-if-from-the-garden-directly-to-my-table-it-is-now-my-main-vegetable-supplier {
+    color: rgba(20, 20, 20, 0.4);
+    text-align: center;
+    font-family: "InterTight-Medium", sans-serif;
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 500;
+    position: relative;
+    width: 288px;
+} */
+
+/* ======================= */
