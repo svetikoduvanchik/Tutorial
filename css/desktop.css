@@ -1,0 +1,113 @@
+.reviews {
+    /* background-color: yellowgreen; */
+
+    background-color: #fbfbfb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.reviews-span {
+    color: #576f35;
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.reviews-content-title {
+    /* text-align: left; */
+    max-width: 553px;
+}
+
+.reviews-title {
+    /* color: #141414; */
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+
+.reviews-title-sub {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 50px;
+}
+
+.reviews-list {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    flex-shrink: 0;
+    /* width: 303px; */
+    position: relative;
+
+
+}
+
+.reviews-item {
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    border-radius: 24px;
+    padding: 20px;
+    width: 343px;
+    height: 258px;
+}
+
+.reviews-picture {
+    background: linear-gradient(to left, #e0e0e0, #e0e0e0);
+    border-radius: 100px;
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    margin-bottom: 24px;
+    position: relative;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.reviews-content {}
+
+.reviews-subtitle {
+    color: #141414;
+    text-align: center;
+    font-size: 18px;
+    line-height: 110%;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.reviews-item-text {
+
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: rgba(20, 20, 20, 0.4);
+
+}

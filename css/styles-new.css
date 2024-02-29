@@ -1,0 +1,139 @@
+.section-review {
+    padding: 40px 0 80px;
+}
+
+@media screen and (min-width: 768px) {
+    .section-review {
+        padding: 50px 0 100px;
+    }
+}
+
+@media screen and (min-width: 1166px) {
+    .section-review {
+        padding: 60px 0 120px;
+    }
+}
+
+.review-title {
+    margin-bottom: 74px;
+}
+
+@media screen and (min-width: 768px) {
+    .review-title {
+        margin-bottom: 91px;
+    }
+}
+
+.review-list {
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    .review-list {
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width: 1166px) {
+    .review-list {
+        gap: 28px;
+    }
+}
+
+.review-img {
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-top: -40px;
+    transform: translateX(-50%);
+}
+
+.review-item:last-child,
+.review-item:nth-child(2n) {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .review-item:nth-child(2n) {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1166px) {
+    .review-item:last-child {
+        display: block;
+    }
+}
+
+.review-item {
+    position: relative;
+    max-width: 335px;
+    padding: 56px 18px 42px;
+    background-color: var(--primery-white);
+    border-radius: 15px;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.review-item:hover,
+.review-item:focus {
+    box-shadow: 0px 9.049px 100px 0px rgba(17, 17, 17, 0.03);
+}
+
+@media screen and (min-width: 768px) {
+    .review-item {
+        padding: 56px 14px 26px;
+        max-width: calc((100% - 16px) / 2);
+    }
+}
+
+@media screen and (min-width: 1166px) {
+    .review-item {
+        padding: 56px 24px 24px;
+        max-width: calc((100% - 56px) / 3);
+    }
+}
+
+.review-subtitle {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.review-text {
+    color: rgba(17, 17, 17, 0.7);
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+}
+
+.review-btn {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding: 12px 28px;
+    color: var(--primery-dark);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 100px;
+    border: 1px solid var(--orange);
+    background-color: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.review-btn:hover,
+.review-btn:focus {
+    background-color: var(--orange);
+    color: var(--primery-white);
+}
+
+@media screen and (min-width: 768px) {
+    .review-btn {
+        padding: 14px 40px;
+        margin-top: 49px;
+        font-size: 18px;
+    }
+}
